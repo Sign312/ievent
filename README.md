@@ -1,6 +1,12 @@
 # Event
 a very light JavaScript Event System
 
+# install
+
+```
+npm install ievent -S
+```
+
 # usage
 
 ```javascript
