@@ -6,6 +6,9 @@ const iEvent = {
     }
     this.proxy[tag].push(cb);
   },
+  once(tag, cb) {
+    this.proxy[tag] = [cb];
+  },
   off(tag) {
     this.proxy[tag] = [];
   },

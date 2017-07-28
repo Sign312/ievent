@@ -1,8 +1,8 @@
 {
   "name": "ievent",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a very light JavaScript Event System",
-  "main": "index.min.js",
+  "main": "inde",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

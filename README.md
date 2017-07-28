@@ -20,8 +20,14 @@ iEvent.on("hello", (name, age) => {
   console.log("hello " + name + " age=" + age + "...");
 });
 
+iEvent.once('hi',name=>{
+  console.log('hi '+name)
+})
+
 // Event.off("hello");
 
 iEvent.emit("hello", "flypie", 21);
+
+iEvent.emit('hi','flypie')
 
 ```
