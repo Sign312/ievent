@@ -1,6 +1,6 @@
 {
   "name": "ievent",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "a very light JavaScript Event System",
   "main": "inde",
   "scripts": {
